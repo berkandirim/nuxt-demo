@@ -7,6 +7,15 @@
   </div>
 </template>
 
+<script>
+  import 'vue-awesome/icons/flag'
+  import Icon from 'vue-awesome/components/Icon'
+
+  export default {
+    components: {Icon}
+  }
+</script>
+
 <style>
 .VueToNuxtLogo {
   display: inline-block;
